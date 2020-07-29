@@ -1,0 +1,117 @@
+/*styling.css*/
+/*Background image*/
+body{
+    text-align: center;
+    background: url(‪C:\Users\Lenovo\Pictures\canvaspic.jpg) center center fixed;
+    background-size: cover;
+}
+
+/*header*/
+#header{
+    background: linear-gradient(white, rgb(238,207,246));
+    background: -webkit-linear-gradient(white, rgb(238,207,246));
+    background: -moz-linear-gradient(white, rgb(238,207,246));
+    background: -o-linear-gradient(white,rgb(238,207,246));
+    background: -ms-linear-gradient(white, rgb(238,207,246));
+    height: 100px;
+    width: 500px;
+    margin: 10px auto;
+    font-size: 4em;
+    color:#1B1B36;
+    line-height: 80px;
+}
+
+/*container*/
+.inputContainer{
+    width: 200px;
+    margin: 0 auto;
+}
+
+/*color input, line thickness, slider*/
+.input{
+    height: 30px; 
+    font-size: 1.3em;
+}
+#slider{
+    margin: 10px auto;  
+
+    
+}
+#circle{
+    height: 3px;  
+    width: 3px;
+    border-radius: 50%;
+    background: black;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+#thicknessInput{
+    position: relative;
+}
+
+/*canvas*/
+#container{
+    width: 600px;
+    height: 400px;
+    border: 1px solid  rgb(238,207,246,1.0);
+    margin: 10px auto;
+}
+#paint{
+    background-color: #fff;
+    cursor: crosshair;
+}
+
+/*container2*/
+.inputContainer2{
+    width: 399px;
+    margin: 0 auto;
+}
+
+/*buttons*/
+.input2{
+     width: 133px;
+    color: #5BB4E7;
+    font-size: 1.3em;
+    float: left;
+}
+
+.button{
+    background: #fff;
+    height: 50px;
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 4px  rgb(238,207,246,0.5);
+    -webkit-box-shadow: 0px 4px  rgb(238,207,246,0.5);
+    -moz-box-shadow: 0px 4px rgb(238,207,246,0.5);
+    position: relative;
+}
+
+.button:hover{
+    color: white;
+    background: linear-gradient(black,  rgb(238,207,246,1.0));
+    background: -webkit-linear-gradient(black,  rgb(238,207,246,1.0));
+    background: -moz-  linear-gradient(black,  rgb(238,207,246,1.0));
+
+    background: -o- linear-gradient(black,  rgb(238,207,246,1.0));
+
+    background: -ms-  linear-gradient(black,  rgb(238,207,246,1.0));
+
+}
+
+.button:active{
+    top: 4px;   
+}
+
+.eraseMode{
+    background-color: red;
+    color: white;
+}
